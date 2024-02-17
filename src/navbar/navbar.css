@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    background-color: aqua;
+    height: 6vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav,
+li {
+    font-size: 1.6rem;
+    padding-left: 1rem;
+}
+
+.combineallcomponent {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+h3 {
+    color: red;
+    padding: 0px 4rem;
+}
+
+h3:hover {
+    background-color: aqua;
+    color: white;
+}
+
+/* course.js */
+.displayproduct img {
+    /* position: absolute; */
+    border-radius: 20px;
+    margin: 0px 15px;
+    padding: 30px 0;
+    /* transform:  translate width: 50%;
+margin: 0 auto;(-50%, -50%); */
+}
+
+.displayproduct {
+    width: 60%;
+    height: 20rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px black;
+    /* border: 2px solid ; */
+
+    margin: 0 auto;
+    /* box-shadow: 3px; */
+}
+
+.outputTutorial {
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px 20px;
+    margin: 30px;
+}
+
+div .firstFooter {
+    width: 30%;
+    text-align: center;
+    /* box-shadow: 0px 0px 20px 0px black; */
+    /* border: 2px solid; */
+    margin: 0 auto;
+    color: gray;
+    margin-top: 10rem;
+}
+
+.firstimgoffooter {
+    width: 50%;
+    border-radius: 10rem;
+    /* position: absolute; */
+    /* margin:0 auto; */
+    margin-left: 30px;
+}
+div .firstfooterwithimg {
+    width: 20%;
+
+    /* border: 2px solid; */
+    /* margin: 0 auto; */
+    /* bottom: 50rem;
+ left: 30px; */
+}
+.firstfooterwithimg p {
+    /* color: red; */
+    padding: 10px;
+}
+.divFOOTER {
+    /* border: 2px solid; */
+    /* bottom: 50px; */
+    margin-top: 5rem;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.secondimgoffooter {
+    width: 50%;
+    border-radius: 2rem;
+    margin-left: 30px;
+}
+.secondfooterwithimg {
+    width: 20%;
+    /* border: 2px solid; */
+    padding: 5px;
+}
+.thirdimgoffooter {
+    width: 60%;
+    margin-left: 30px;
+}
+.thirdfooterwithimg {
+    width: 20%;
+    /* border: solid; */
+    padding: 2px;
+}
+#section {
+    margin-left: 5rem;
+    box-shadow: 0px 0px 10px 3px;
+    border-radius: 5px;
+}
+.title {
+    font-size: 20px;
+    margin-top: -20px;
+}
+.bottom1 {
+    border: 2px solid pink;
+    background: green;
+    display: flex;
+}
+
+ul {
+    /* border: 2px solid ; */
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    list-style-type: none;
+}
+.li1{
+    background-color: rgb(7, 159, 253);
+    border-radius: 10px;
+    width: 8%;
+    font-size: 2rem;
+}
+.App-header{
+
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 6px 20px 0px black;
+    border-radius: 10px;
+      }
+      .App-headers{
+        width: 30%;
+        height: 30vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }

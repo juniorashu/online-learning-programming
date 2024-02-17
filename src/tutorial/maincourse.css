@@ -1,0 +1,131 @@
+.maincourse{
+    width: 60%;
+  /* color: green; */
+margin: 0 auto;
+
+border: 2px solid rgb(115, 192, 115);
+overflow: auto;
+}
+.first-h1{
+    text-align: center;
+}
+span {
+    font-weight: 2rem;
+    font-size: 1.3rem;
+     color: blue;
+}
+.maindiv2{
+  border: 2px solid;
+  width: 70%;
+  /* margin: 0 auto; */
+  left: 130px;
+  margin-left: 25rem;
+ 
+}
+.maindiv1{
+  border: 2px solid red;
+}
+p{
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+}
+span{
+  text-align: center;
+ 
+}
+.exercise{
+  text-align: center;
+/* width: 40%; */
+
+}
+.exercise2{
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+ }
+ .ul{
+  display: flex;
+ } 
+ .section1{
+  background-color: rgb(191, 225, 191);
+opacity: 0.9;
+border-radius: 20px;
+ }
+ .liDatatype{
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+ }
+ .liDatatype1{
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+ }
+ .aside{
+  position: absolute;
+  border: 2px solid ;
+  width: 30%;
+
+  background-color: lightgray;
+  
+ }
+.image1{
+  position: relative;
+  width: 100%;
+  height: 10rem;
+top: 50%;
+}
+h3 {
+padding: 5px;
+}
+.exercise-secton{
+  border: 2px solid ;
+  width: 95%;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  height: 15vh;
+}
+.exercise{
+background-color: rgb(5, 5, 74);
+color: white;
+width: 70%;
+margin: 0 auto;
+height: 25vh;
+margin-left: 25rem;
+}
+.p1{
+  font-size: 28px;
+}
+.p2{
+  font-size: 25px;
+}
+.image2{
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+h4{
+  padding: 5px;
+}
+.exercise2{
+  background-color: rgb(5, 5, 74);
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  height: 25vh;
+  margin-left: 25rem;
+  margin-top: 10px;
+  }
+  .section-exercise{
+    border: 2px solid ;
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    height: 15vh;
+padding: 20px;
+
+  }
