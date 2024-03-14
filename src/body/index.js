@@ -2,7 +2,8 @@ import Tutorial from "./object";
 import '../navbar/navbar.css'
 import { Routes,Route, Link} from 'react-router-dom'
 import Datatype from "../tutorial/datatype";
-import ImportApp from "../importApp";
+
+import Sign from "../signin";
 
 const Tu = (props) => {
     const { img , title  ,location, link} = props
@@ -26,7 +27,7 @@ const Firstfooter = () => {
     return ( <div><p className="firstFooter">
         <Routes>
             <Route path="/datatype" element={<Datatype />} />
-            <Route path="/login" element={<ImportApp />} />
+            <Route path="/signin" element={<Sign />} />
         </Routes>
         feedback  from the  learner are welcome  so feel free to
 to click on the link below an give us feedback about your 
@@ -72,7 +73,7 @@ account link
 
 const CourseEnv = () => {
     return ( <div>
-      <ul> <li className="li1"><Link to='/login' >login</Link></li> </ul>
+      <ul> <li className="li1"><Link to='/signin' >login</Link></li> </ul>
         <div  className="outputTutorial">
 {importtutorial}
 

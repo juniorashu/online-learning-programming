@@ -2,14 +2,19 @@
 import { useEffect, useState } from 'react';
 import { app } from './importfirebaseConfig';
 import {
-  getAuth,
+  
   signInWithEmailAndPassword,
   signOut,
-  onAuthStateChanged
-} from 'firebase/auth';
+  onAuthStateChanged} from 'firebase/auth';
 import './App.css'
+import 'firebase/auth';
+import { auth }  from "./firebaseConfig";
+import firebase from 'firebase/app';
+import 'firebase/auth';
+import 'firebase/firestore';
+
 function ImportApp() {
-  const auth = getAuth();
+  
   const [data, setData] = useState({
     email: '',
     password: ''

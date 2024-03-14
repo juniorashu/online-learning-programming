@@ -91,11 +91,12 @@ button {
 
 }
 .link{
+    width: 20%;
     list-style-type: none;
     font-size: 20px;
     background-color:skyblue;
     padding: 2px;
- margin: 10px;
+ margin: 30px;
      
 }
 button{
